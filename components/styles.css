@@ -1,1 +1,31 @@
+/* Reset basic spacing */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+/* Footer styling */
+.site-footer {
+    display: flex;
+    flex-direction: column; /* column layout */
+    justify-content: center; /* vertical center */
+    align-items: center; /* horizontal center */
+
+    background-color: #333; /* required */
+    color: white; /* required */
+
+    padding: 30px;
+    text-align: center;
+}
+
+/* Quote styling */
+.site-footer blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Paragraph styling */
+.site-footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
